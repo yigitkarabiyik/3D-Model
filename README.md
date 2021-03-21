@@ -11,4 +11,5 @@ The project was tested by writing the algorithm that generates a random index nu
 ## Requirements
 
 pip install trimesh
+
 pip install numpy
