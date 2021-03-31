@@ -28,27 +28,6 @@ def area_calculator(triangle):
   area = sqrt(s*(s - edgeA)*(s - edgeB)*(s - edgeC))
   return area
 
-def quickSort(arr):
-  '''Sort of the (n,2) shape of array according to first index
-  used Selection Sort Method'''
-  less = []
-  pivotList = []
-  more = []
-  if len(arr) <= 1:
-      return arr
-  else:
-      pivot = arr[0]
-      for i in arr:
-          if i[1] < pivot[1]:
-              less.append(i)
-          elif i[1] > pivot[1]:
-              more.append(i)
-          else:
-              pivotList.append(i)
-      less = quickSort(less)
-      more = quickSort(more)
-  return less + pivotList + more
-
 def shellSort(input_list):
   '''Sort of the (n,2) shape of array according to first index
   Used Shell Sort Method'''
