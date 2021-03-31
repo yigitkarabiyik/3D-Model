@@ -13,3 +13,7 @@ The project was tested by writing the algorithm that generates a random index nu
 pip install trimesh
 
 pip install numpy
+
+## Run
+
+python tridi.py
